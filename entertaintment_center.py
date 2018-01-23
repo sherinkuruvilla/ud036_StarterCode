@@ -6,6 +6,7 @@ import time
 # the movies we want to show in the web site.
 # I have instantiated 4 movie classes and
 # gave them each a name, description, image URL and youtube trailer's URL
+
 toy_story = media.Movie("Toy Story",
                         "This is a story of a kid and his toys coming to life",
                         "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-m8zzyx_5670999f.jpeg?region=0,0,300,450",
@@ -34,4 +35,5 @@ movies = [dhangal, avatar, pulimurugan, toy_story]
 # open_movies_page function, which will do a variable
 # substitution to generate the web page templates
 # for these 4 movies.
+
 fresh_tomatoes.open_movies_page(movies)
